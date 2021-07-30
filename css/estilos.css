@@ -19,6 +19,22 @@ body{
     display: block;
     margin: 0 auto;
 }
+.contact{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+.whats{
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+}
+.correo-logo{
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+    margin-top:5%;
+}
 .maps{
     width: 95%;
     display: block;
