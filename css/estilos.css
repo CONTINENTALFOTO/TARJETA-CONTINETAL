@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-image:url(../img/fondo6.png)
+    background-image:url(../img/fondo7.png)
 }
 .container{
     width: 95%;
@@ -23,16 +23,23 @@ body{
     display: block;
     margin: 0 auto;
     width: 80%;
+    margin-top: 5%;
 }
 .whats{
     display: block;
     margin: 0 auto;
-    width: 15%;
+    width: 60%;
+}
+.whats-text{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
 }
 .correo-logo{
     display: block;
     margin: 0 auto;
-    width: 15%;
+    width: 50%;
     margin-top:5%;
 }
 .maps{
@@ -53,6 +60,12 @@ body{
     margin-top: 10%;
     border-radius: 10px;
 }
+.ubica{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+}
 .qr{
     width: 60%;
     display: block;
@@ -60,11 +73,18 @@ body{
     margin-top: 10%;
     border-radius: 10px;
 }
+.esca{
+    width: 55%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+}
 p{
     text-align: center;
     margin-top: 5%;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     color: aliceblue;
+    font-size: xx-large;
 }
 .cod{
     display: block;
@@ -74,6 +94,29 @@ p{
     width: 100%;
     display: block;
     margin: 0 auto;
+}
+.stat {
+	text-align:center;
+	width:100%;
+    display:grid ;
+    grid-template-columns: repeat(2, 1fr);
+}
+.stat-count {
+	font-size: large;
+	font-weight: normal;
+	letter-spacing: -0.02em;
+	line-height: 1.2;
+	overflow:hidden;
+	font-family:"Georgia", Courier, monospace;
+    color:#fff;
+    display: block;
+    margin: 0 auto;
+}
+.stat-detail {
+	color:#fff;
+    display: block;
+    margin: 0 auto;
+    font-size: large;
 }
 @media screen and (max-width: 700px){
     .link{
@@ -95,5 +138,12 @@ p{
         margin: 0 auto;
         margin-top: 20%;
         border-radius: 10px;
-}
+        
+    }
+    .whats{
+        width: 75%;
+    }
+    p{
+        font-size: larger;
+    }
 }
